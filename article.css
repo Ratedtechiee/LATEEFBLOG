@@ -31,7 +31,7 @@ h2{
 
 
 #first{
-    background-image: url(/IMG/article-background.png);
+    background-image: url(./IMG/article-background.png);
     width: 65%;
     height: 549px;
     display: flex;
@@ -115,7 +115,7 @@ h4{
     margin-bottom: 10px;
 }
 #img-atr{
-    background-image: url(/IMG/atr.png);
+    background-image: url(./IMG/atr.png);
     width: 160px;
     height: 145px;
     border-radius: 5px;
@@ -208,7 +208,7 @@ h4{
     white-space: nowrap;
 }
 .img-trend{
-    background-image: url(/IMG/trend.png);
+    background-image: url(./IMG/trend.png);
     width: 47px;
     height: 47px;
 }
