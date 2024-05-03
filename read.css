@@ -167,6 +167,14 @@ h6{
     
 }
 
+footer{
+    background-color: #3652E1;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
 
 
 @media screen and (max-width: 1287px) {
@@ -188,22 +196,21 @@ h6{
     h3, .search{
         display: none;
     }
-    .big{
+    .small{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .menu{
-        display: block;
     }
     .home{
         display: none;
     }
-    .small{
+    .menu{
+        display: block;
+    }
+    .big{
         display: none;
     }
+    .text-area{
+        width: 100%;
+    }
 }
+
+
