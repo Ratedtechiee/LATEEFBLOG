@@ -203,4 +203,7 @@ h6{
     .home{
         display: none;
     }
+    .small{
+        display: none;
+    }
 }
