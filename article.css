@@ -114,6 +114,13 @@ h4{
     display: flex;
     margin-bottom: 10px;
 }
+.atr:hover{
+    border: 5px solid #3652E1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 #img-atr{
     background-image: url(./IMG/atr.png);
     width: 160px;
