@@ -31,7 +31,7 @@ h2{
 
 
 #first{
-    background-image: url(./IMG/article-background.png);
+    background-image: url(/IMG/article-background.png);
     width: 65%;
     height: 549px;
     display: flex;
@@ -73,7 +73,13 @@ h3{
     display: inline-block;
     margin-left: 20px;
 }
-
+p:hover{
+    color: #3652E1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .cat{
     display: flex;
     width: 500px;
@@ -117,12 +123,8 @@ h4{
 .atr:hover{
     border: 5px solid #3652E1;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 #img-atr{
-    background-image: url(./IMG/atr.png);
+    background-image: url(/IMG/atr.png);
     width: 160px;
     height: 145px;
     border-radius: 5px;
@@ -215,7 +217,7 @@ a{
     white-space: nowrap;
 }
 .img-trend{
-    background-image: url(./IMG/trend.png);
+    background-image: url(/IMG/trend.png);
     width: 47px;
     height: 47px;
 }
@@ -321,6 +323,12 @@ a{
 @media screen and (max-width: 500px) {
     .atr{
         width: 400px;
+    }
+    .small{
+        display: none;
+    }
+    #container{
+        height: 500px; 
     }
 }
 @media screen and (max-width: 430px) {
