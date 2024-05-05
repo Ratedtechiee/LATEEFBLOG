@@ -72,6 +72,33 @@ h1{
     height: 400px;
     
 }
+.radio:hover{
+    border: 5px solid #3652E1;
+}
+.radio-2:hover{
+    border: 5px solid #3652E1;
+}
+.radio-3:hover{
+    border: 5px solid #3652E1;
+}
+.radio-4:hover{
+    border: 5px solid #3652E1;
+}
+.radio-5:hover{
+    border: 5px solid #3652E1;
+}
+.radio-6:hover{
+    border: 5px solid #3652E1;
+}
+.radio-7:hover{
+    border: 5px solid #3652E1;
+}
+.radio-8:hover{
+    border: 5px solid #3652E1;
+}
+.radio-1:hover{
+    border: 5px solid #3652E1;
+}
 .radio{
     width: 167px;
     color: white;
@@ -81,6 +108,80 @@ h1{
     margin-left: 10px;
     border-radius: 200px;
     background-image: url(/IMG/v.png);
+}
+.radio-1{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/e.png);
+}
+.radio-2{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/z.png);
+}.radio-3{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/pol.png);
+}.radio-4{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/sport.png);
+}.radio-5{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/v.png);
+}.radio-6{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/m.png);
+}.radio-7{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/ent.png);
+}.radio-8{
+    width: 167px;
+    color: white;
+    text-align: center;
+    height: 274px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 200px;
+    background-image: url(/IMG/edu.png);
 }
 ::-webkit-scrollbar{
     display: none;
@@ -301,7 +402,14 @@ footer{
         font-size: 30px;
     }
     .header{
-        padding: 0 5px;
+        padding: 10px;
+    }
+    h2{
+        margin: 0;
+    }
+    .p-menu{
+        margin: 0;
+        font-size: 21px;
     }
 }
 
