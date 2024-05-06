@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Landing Page</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <meta name="description" content="Explore the latest health trends, research, and tips for a balanced life.">
+   <link rel='stylesheet' type='text/css' media='screen' href='/article.css'>
+   <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h2>LATEEF<span class="color">BLOG</span></h2>
+        </div>
+        <div class="home">
+            <a href="index.html">
+                <P id="home">Home</P>
+            </a>
+            <a href="article.html">
+                <p id="home">Articles</p>
+            </a>
+            <a href="contact.html">
+                <p id="home">Contact</p>
+            </a>
+        </div>
+        <div class="menu">
+            <p class="p-menu">MENU</p>
+        </div>
+    </header>
+
+
+    <section id="first">
+        <div class="big">
+            <h3>For you</h3>
+            <input type="search" placeholder="search" class="search">
+            <div id="box-slider">
+                <a href="/article.html">
+                    <div class="radio">
+                        <p>All</p>
+                    </div>
+                </a>
+                <a href="/health.html">
+                    <div class="radio">
+                        <p class="all">Health</p>
+                    </div>
+                </a>
+                <a href="/tech.html">
+                    <div class="radio">
+                        <p>Technology</p>
+                    </div>
+                </a>
+                <a href="/env.html">
+                    <div class="radio">
+                        <p>Environment</p>
+                    </div>
+                </a>
+                <a href="/busi.html">
+                    <div class="radio">
+                        <p>Business</p>
+                    </div>
+                </a>
+                <a href="/poli.html">
+                    <div class="radio">
+                        <p>Politics</p>
+                    </div>
+                </a>
+                <a href="/sport.html">
+                    <div class="radio">
+                        <p>Sport</p>
+                    </div>
+                </a>
+                <a href="/finance.html">
+                    <div class="radio">
+                        <p>Finance</p>
+                    </div>
+                </a>
+                <a href="/ent.html">
+                    <div class="radio">
+                        <p>Entertainment</p>
+                    </div>
+                </a>
+                <a href="/edu.html">
+                    <div class="radio">
+                        <p>Education</p>
+                    </div>
+                </a>
+            </div>
+            <div class="selection">
+                <select name="select" id="selection">
+                    <option value="all">All &nbsp;&nbsp;</option>
+                    <option value="tech">Technology</option>
+                    <option value="environment">Environment</option>
+                    <option value="business">Business</option>
+                    <option value="politics">Politics</option>
+                    <option value="sport">Sport</option>
+                    <option value="finance">Finance</option>
+                    <option value="health">Health</option>
+                    <option value="education">Education</option>
+                    <option value="entertainment">Entertainment</option>
+                </select>
+            </div>
+            <div id="container">
+                <a href="/read.html">
+                    <div class="atr">
+                        <div id="img-atr"></div>
+                        <div id="txt-atr">
+                            <p class="black">The overlooked benefits of real Christmas trees</p>
+                            
+                            <p class="the">The environmental pros and cons of Christmas  <br>trees go far beyond the</p>
+                            <div id="env">
+                                <p class="env">Environment</p>
+                                <p class="more">Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="atr">
+                    <div id="img-atr"></div>
+                    <div id="txt-atr">
+                        <p class="black">The overlooked benefits of real Christmas trees</p>
+                        
+                        <p class="the">The environmental pros and cons of Christmas  <br>trees go far beyond the...</p>
+                        <div id="env">
+                            <p class="env">Environment</p>
+                            <p class="more">Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="atr">
+                    <div id="img-atr"></div>
+                    <div id="txt-atr">
+                        <p class="black">The overlooked benefits of real Christmas trees</p>
+                        <p class="the">The environmental pros and cons of Christmas <br> trees go far beyond the...</p>
+                        <div id="env">
+                            <p class="env">Environment</p>
+                            <p class="more">Read More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small">
+            <div class="account">Subscribe Now</div>
+            <div class="trend">
+                <p class="txt-trd"><b>Trending</b></p>
+                <div id="trend">
+                    <div class="img-trend"></div>
+                    <div class="trd">
+                        <p class="how">How Will AI Image Generators Affect Artists?</p>
+                        <div class="flex">
+                            <p class="blue">Rey</p>
+                            <p class="blue">Tech</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="trend">
+                    <div class="img-trend"></div>
+                    <div class="trd">
+                        <p class="how">How Will AI Image Generators Affect Artists?</p>
+                        <div class="flex">
+                            <p class="blue">Rey</p>
+                            <p class="blue">Tech</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="trend">
+                    <div class="img-trend"></div>
+                    <div class="trd">
+                        <p class="how">How Will AI Image Generators Affect Artists?</p>
+                        <div class="flex">
+                            <p class="blue">Rey</p>
+                            <p class="blue">Tech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const select = document.getElementById('selection');
+      
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'tech') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'all') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'business') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'politics') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'finance') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'health') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'education') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'entertainment') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'environment') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+
+        select.addEventListener('change', function() {
+          const selectedOption = this.value;
+          if (selectedOption === 'sport') {
+            // Redirect to the desired link
+            window.location.href = 'https://www.example.com/linked-page';
+          }
+        });
+      </script>
+</body>
+</html>    
