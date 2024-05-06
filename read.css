@@ -36,6 +36,10 @@ a{
     display: none;
     margin: 0;
 }
+.p-menu{
+        margin: 0;
+        font-size: 21px;
+    }
 
 
 #first{
